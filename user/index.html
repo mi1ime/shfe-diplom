@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   -->
+  <title>Diplom</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_index.css">
+  <link rel="stylesheet" href="css/style_tablet.css">
+  <link rel="stylesheet" href="css/style_desktop.css">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      <h1>Идём<span class="logo-V">в</span>кино</h1>
+    </div>
+
+    <button class="btn login">
+      <span>Войти</span>
+    </button>
+
+  </header>
+
+  <nav>
+
+    <ul class="nav-sections">
+
+      <li class="nav-section today-section">
+        <span class="today">Сегодня</span>
+        <span class="date__day-week">Пн,</span>
+        <span class="date__day-number">31</span>
+      </li>
+      <li class="nav-section">
+        <span class="date__day-week">Вт,</span>
+        <span class="date__day-number">1</span>
+      </li>
+      <li class="nav-section section-selected">
+        <span class="date__day-week">Cр,</span>
+        <span class="date__day-number">2</span>
+      </li>
+      <li class="nav-section">
+        <span class="date__day-week">Чт,</span>
+        <span class="date__day-number">3</span>
+      </li>
+      <li class="nav-section">
+        <span class="date__day-week">Пт,</span>
+        <span class="date__day-number">4</span>
+      </li>
+      <li class="nav-section">
+        <span class="date__day-week">Сб,</span>
+        <span class="date__day-number">5</span>
+      </li>
+      <li class="nav-section arrow">
+        <span>></span>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <main>
+
+    <div class="date-schedule">
+
+      <div class="movies border-rad">
+
+        <div class="movie">
+          <div class="movie-info">
+            <img src="img/movie-poster1.jfif" alt="Постер к фильму" class="movie-poster"></img>
+            <div class="movie-description">
+              <h3 class="movie-title">Звёздные войны XXIII: Атака клонированных клонов</h3>
+              <p class="movie-synopsis info-text">Две сотни лет назад малороссийские хутора разоряла шайка
+                нехристейляхов во главе с могущественным колдуном.</p>
+              <span class="movie-duration add-info-text">130 минут</span>
+              <span class="movie-country add-info-text">США</span>
+            </div>
+
+          </div>
+
+          <div class="movie-seances__hall"> <!-- обдумать название класса -->
+            <h3 class="hall">Зал 1</h3>
+            <ul class="movie-seances">
+              <li class="movie-seance-time">10:20</li>
+              <li class="movie-seance-time">14:10</li>
+              <li class="movie-seance-time">18:40</li>
+              <li class="movie-seance-time">22:00</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="movie">
+          <div class="movie-info">
+            <img src="img/movie-poster2.jfif" alt="Постер к фильму" class="movie-poster"></img>
+            <div class="movie-description">
+              <h3 class="movie-title">Альфа</h3>
+              <p class="movie-synopsis info-text">20 тысяч лет назад Земля была холодным и неуютным местом, в котором
+                смерть подстерегала человека на каждом шагу.</p>
+              <span class="movie-duration add-info-text">96 минут</span>
+              <span class="movie-country add-info-text">Франция</span>
+            </div>
+
+          </div>
+
+          <div class="halls">
+            <div class="movie-seances__hall"> <!-- обдумать название класса -->
+              <h3 class="hall">Зал 1</h3>
+              <ul class="movie-seances">
+                <li class="movie-seance-time">10:20</li>
+                <li class="movie-seance-time">14:10</li>
+                <li class="movie-seance-time">18:40</li>
+                <li class="movie-seance-time">22:00</li>
+              </ul>
+            </div>
+            <div class="movie-seances__hall"> <!-- обдумать название класса -->
+              <h3 class="hall">Зал 2</h3>
+              <ul class="movie-seances">
+                <li class="movie-seance-time">11:15</li>
+                <li class="movie-seance-time">14:40</li>
+                <li class="movie-seance-time">16:00</li>
+                <li class="movie-seance-time">18:30</li>
+                <li class="movie-seance-time">21:00</li>
+                <li class="movie-seance-time">23:30</li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="movie">
+          <div class="movie-info">
+            <img src="img/movie-poster2.jfif" alt="Постер к фильму" class="movie-poster"></img>
+            <div class="movie-description">
+              <h3 class="movie-title">Хищник</h3>
+              <p class="movie-synopsis info-text">Самые опасные хищники Вселенной, прибыв из глубин космоса,
+                высаживаются на улицах маленького городка, чтобы начать свою кровавую охоту. Генетически модернизировав
+                себя с помощью ДНК других видов, охотники стали ещё сильнее, умнее и беспощаднее.</p>
+              <span class="movie-duration add-info-text">101 минута</span>
+              <span class="movie-country add-info-text">Канада, США</span>
+            </div>
+
+          </div>
+
+          <div class="movie-seances__hall"> <!-- обдумать название класса -->
+            <h3 class="hall">Зал 1</h3>
+            <ul class="movie-seances">
+              <li class="movie-seance-time">9:00</li>
+              <li class="movie-seance-time">10:10</li>
+              <li class="movie-seance-time">12:55</li>
+              <li class="movie-seance-time">14:15</li>
+              <li class="movie-seance-time">15:50</li>
+              <li class="movie-seance-time">16:30</li>
+              <li class="movie-seance-time">18:00</li>
+              <li class="movie-seance-time">18:50</li>
+              <li class="movie-seance-time">19:50</li>
+              <li class="movie-seance-time">20:55</li>
+              <li class="movie-seance-time">22:00</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+  <script src="site.js"></script>
+
+</body>
+
+</html>
